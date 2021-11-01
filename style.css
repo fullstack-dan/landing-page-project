@@ -1,5 +1,5 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, sans-serif;
     margin: 0;
 }
 /* header */
@@ -16,6 +16,7 @@ ul, a {
     padding: 0px;
     margin: 0;
     color: #E5E7EB;
+    font-weight: lighter;
 }
 .headerLinks {
     display: flex;
@@ -122,4 +123,38 @@ ul, a {
     justify-content: center;
     gap: 16px;
     padding: 64px;
+}
+
+/* section 4 */
+.sec4 {
+    display: flex;
+    margin: 64px;
+    padding: 32px 128px 32px 128px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.bottomButton {
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #F9FAF8;
+    border-radius: 8px;
+    border-color: #F9FAF8;
+    padding: 0px 32px 0px 32px;
+    font-weight: bold;
+    border-style: solid;
+    height: 50px;
+}
+.heading2 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+
+}
+.subheading2 {
+    font-size: 18px;
+    color: #E5E7EB
 }
