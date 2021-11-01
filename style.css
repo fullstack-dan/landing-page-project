@@ -158,3 +158,12 @@ ul, a {
     font-size: 18px;
     color: #E5E7EB
 }
+
+/* footer */
+
+footer {
+    text-align: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 16px;
+}
